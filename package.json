@@ -1,0 +1,24 @@
+{
+  "author": "Julian Gautier <julian.gautier@alumni.neumont.edu> (www.juliangautier.com)",
+  "name": "require-jade",
+  "description": "require for jade templates in node and in the browser.",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "engines": {
+    "node": "~0.6.2"
+  },
+  "dependencies": {
+      "jade" : "0.19.x"
+  },
+  "devDependencies": {
+      "browserify" : "1.8.x",
+      "express" : "2.5.x"
+  },
+  "browserify" : "runtime.js"
+}
