@@ -18,7 +18,8 @@
   },
   "devDependencies": {
       "browserify" : "1.8.x",
-      "express" : "2.5.x"
+      "express" : "2.5.x",
+      "mocha" : "0.7.x"
   },
   "browserify" : "runtime.js"
 }
