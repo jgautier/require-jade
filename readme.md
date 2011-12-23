@@ -21,7 +21,7 @@
     document.body.innerHTML = template();
 ### template.jade
     h1 it worked!
-Check the example folder for a working examples.
+Check the example folder for a working example.
     node example/app.js
 Then browse to http://localhost:8080
 ## Installation
