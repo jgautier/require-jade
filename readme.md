@@ -1,3 +1,4 @@
+[![Build Status](https://secure.travis-ci.org/jgautier/require-jade.png)](http://travis-ci.org/jgautier/require-jade)
 # Require your jade templates in node and the browser via browserify.
 ## Usage
 ### Server
