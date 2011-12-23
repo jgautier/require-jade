@@ -17,12 +17,12 @@
     });
     app.listen(8080);
 ### Client
-   var template = require('./template.jade');
-   document.body.innerHTML = template();
+    var template = require('./template.jade');
+    document.body.innerHTML = template();
 ### template.jade
-   h1 it worked!
+    h1 it worked!
 Check the example folder for a working examples.
-   node example/app.js
+    node example/app.js
 Then browse to http://localhost:8080
 ## Installation
     npm install require-jade
