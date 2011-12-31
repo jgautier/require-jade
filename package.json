@@ -2,7 +2,7 @@
   "author": "Julian Gautier <julian.gautier@alumni.neumont.edu> (www.juliangautier.com)",
   "name": "require-jade",
   "description": "require for jade templates in node and in the browser.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "url": ""
   },

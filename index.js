@@ -1,7 +1,7 @@
 var fs = require('fs');
 var jade = require('jade');
 var wrap = function(content,jadeModule){
-   return 'var jade = require(\''+jadeModule+'\'); module.exports = template = ' + content;
+   return 'var jade = require(\''+jadeModule+'\'); module.exports = ' + content;
 };
 require.extensions['.jade'] = function(module,filename){
     var source = wrap(jade.compile(fs.readFileSync(filename,'utf8'),{client:true,compileDebug:false,filename:filename}).toString(),__dirname+'/runtime.js');
